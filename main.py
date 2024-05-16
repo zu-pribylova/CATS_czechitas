@@ -9,7 +9,7 @@ response_json = {}
 
 
 def from_hero_to_cat_facts(downloaded_data):
-    """Z poskytnutého dict vybere values pod klíčem "text" a vrátí list očíslovaných faktů"""
+    """Z poskytnutého dict-jsonu vybere values pod klíčem "text" a vrátí list očíslovaných faktů"""
     cat_facts = []
     no = 0
     for each in downloaded_data:
